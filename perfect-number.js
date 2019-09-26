@@ -1,8 +1,8 @@
 const checkPerfectNumber = num => {
-    if (num < 0) return false;
+    if (num < 1) return false;
     else {
         const divisors = [];
-        for (let i = 0; i < num; i++) {
+        for (let i = 1; i < num; i++) {
             if (num % i === 0) {
                 divisors.push(i);
             }
