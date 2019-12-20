@@ -19,8 +19,7 @@ const getPermutation = (myString, currentString = "", permutations = []) => {
 };
 console.log(getPermutation("ABC"));
 
-
-//without duplicates
+// without duplicates
 const getPermutationWithoutDuplicates = (myString, currentString = "", permutations = []) => {
     if (!myString) {
         permutations.push(currentString);  // Add currentString to permutations

@@ -3,7 +3,7 @@
  * @return {number}
  */
 var repeatedNTimes = function (A) {
-    let map = new Map();
+    const map = new Map();
 
     for (let i = 0, length = A.length; i < length; i++) {
         currentElement = A[i];

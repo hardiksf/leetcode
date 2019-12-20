@@ -1,7 +1,7 @@
 const selfDividingNumbers = (left, right) => {
     const output = [];
     for (let i = left; i <= right; i++) {
-        let digitsString = [...i + ''];
+        const digitsString = [...i + ''];
         if (!(digitsString.indexOf('0') > -1)) {
             const digits = digitsString.map(digit => + digit); // + returns the number representation of the object,
             const numberOfDigits = digits.length;

@@ -1,0 +1,25 @@
+{
+    "name": "leetcode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "cells-with-odd-values-in-a-matrix.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --ext .js",
+        "lint:fix": "eslint . --ext .js --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hardiksf/leetcode.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hardiksf/leetcode/issues"
+    },
+    "homepage": "https://github.com/hardiksf/leetcode#readme",
+    "devDependencies": {
+        "eslint": "^6.7.2"
+    }
+}
