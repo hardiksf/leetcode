@@ -56,5 +56,7 @@ module.exports = {
         'no-const-assign': 'error',
 
         quotes: ['error', 'single', { 'allowTemplateLiterals': true }],
+
+        'no-new-object': 'error',
     },
 };
