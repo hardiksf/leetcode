@@ -46,7 +46,7 @@ module.exports = {
 
         'comma-spacing': ['error', { 'before': false, 'after': true }],
 
-        'no-multiple-empty-lines': ["error", { "max": 1, 'maxBOF': 1 }],
+        'no-multiple-empty-lines': ['error', { 'max': 1, 'maxBOF': 1 }],
 
         'prefer-const': ['error', {
             'destructuring': 'any',
@@ -54,5 +54,7 @@ module.exports = {
         }],
 
         'no-const-assign': 'error',
+
+        quotes: ['error', 'single', { 'allowTemplateLiterals': true }],
     },
 };

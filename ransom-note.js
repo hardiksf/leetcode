@@ -6,7 +6,7 @@
 var canConstruct = function (ransomNote, magazine) {
     for (const character of ransomNote) {
         if (magazine.includes(character)) {
-            magazine = magazine.replace(character, "");
+            magazine = magazine.replace(character, '');
         } else {
             return false;
         }
@@ -14,4 +14,4 @@ var canConstruct = function (ransomNote, magazine) {
     return true;
 };
 
-console.log(canConstruct("aa", "aab"));
+console.log(canConstruct('aa', 'aab'));

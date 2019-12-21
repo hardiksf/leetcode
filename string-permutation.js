@@ -1,5 +1,5 @@
 // string permutation
-const getPermutation = (myString, currentString = "", permutations = []) => {
+const getPermutation = (myString, currentString = '', permutations = []) => {
     if (!myString) {
         permutations.push(currentString);  // Add currentString to permutations
         return;
@@ -17,10 +17,10 @@ const getPermutation = (myString, currentString = "", permutations = []) => {
 
     return permutations;
 };
-console.log(getPermutation("ABC"));
+console.log(getPermutation('ABC'));
 
 // without duplicates
-const getPermutationWithoutDuplicates = (myString, currentString = "", permutations = []) => {
+const getPermutationWithoutDuplicates = (myString, currentString = '', permutations = []) => {
     if (!myString) {
         permutations.push(currentString);  // Add currentString to permutations
         return;
@@ -39,4 +39,4 @@ const getPermutationWithoutDuplicates = (myString, currentString = "", permutati
     return permutations;
 };
 
-console.log(getPermutationWithoutDuplicates("ABCA"));
+console.log(getPermutationWithoutDuplicates('ABCA'));

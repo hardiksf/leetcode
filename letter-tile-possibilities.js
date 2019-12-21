@@ -1,4 +1,4 @@
-const numTilePossibilities = (myString, currentString = "", permutations = []) => {
+const numTilePossibilities = (myString, currentString = '', permutations = []) => {
     if (permutations) {
         permutations.push(currentString);  // Add currentString to permutations
 

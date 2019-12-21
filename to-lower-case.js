@@ -1,5 +1,5 @@
 var toLowerCase = function (str) {
-    let result = "";
+    let result = '';
     const charArray = str.split('');
     const length = str.length;
     for (let i = 0; i < length; i++) {

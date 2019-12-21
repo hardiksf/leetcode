@@ -10,7 +10,7 @@ var repeatedNTimes = function (A) {
         if (map.has(currentElement)) {
             return currentElement;
         } else {
-            map.set(currentElement, "this number exists");
+            map.set(currentElement, 'this number exists');
         }
     }
 };

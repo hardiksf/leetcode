@@ -11,14 +11,14 @@ var judgeCircle = function (moves) {
             : map.set(currentMove, 1);
     }
 
-    if (map.has("U") || map.has("D")) {
-        if (map.get("U") !== map.get("D")) {
+    if (map.has('U') || map.has('D')) {
+        if (map.get('U') !== map.get('D')) {
             return false;
         }
     }
 
-    if (map.has("L") || map.has("R")) {
-        if (map.get("L") !== map.get("R")) {
+    if (map.has('L') || map.has('R')) {
+        if (map.get('L') !== map.get('R')) {
             return false;
         }
     }
@@ -27,4 +27,4 @@ var judgeCircle = function (moves) {
 
 };
 
-console.log(judgeCircle("RRDD"));
+console.log(judgeCircle('RRDD'));
