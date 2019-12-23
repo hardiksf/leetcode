@@ -2,7 +2,6 @@
     "name": "leetcode",
     "version": "1.0.0",
     "description": "",
-    "main": "cells-with-odd-values-in-a-matrix.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint . --ext .js",
